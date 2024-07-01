@@ -1,0 +1,165 @@
+
+#c{
+    height:300px;
+    width:300px;
+    background-color: white;
+     border-color: white;
+    border-left: yellow;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+   position: absolute;
+   top:250px;
+   left:500px;
+   animation-name: n;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-delay: 0.001s;
+   animation-iteration-count: infinite;
+    
+}
+@keyframes n{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+}
+#d{
+    height:150px;
+    width:150px;
+    background-color: rgb(14, 63, 224);
+    border:5px solid black;
+    border-radius: 20%;
+
+   position: absolute;
+   top:50px;
+   left:50px;
+   animation-name: m;
+   animation-duration: 0.9s;
+   animation-timing-function: linear;
+   animation-delay: 0.001s;
+   animation-direction: alternate-reverse;
+   animation-iteration-count: infinite;
+    
+}
+@keyframes m {
+    from{
+       transform: translateX(100px) ;background-color: brown;
+       
+    } to{
+        transform: translateX(800px);background-color: rgb(128, 165, 42);  border-radius: 50%;
+
+}}
+#f{
+    height:150px;
+    width:150px;
+    background-color: rgb(14, 63, 224);
+    border:5px solid black;
+    border-radius: 20%;
+
+   position: absolute;
+  bottom:20px;
+   animation-name: k;
+   animation-duration: 0.9s;
+   animation-timing-function: linear;
+   animation-delay: 0.001s;
+   animation-direction: alternate-reverse;
+   animation-iteration-count: infinite;
+    
+}
+@keyframes k {
+    from{
+      right:100px ;background-color: brown;
+       
+    } to{
+       right:700px; background-color: chartreuse; border-radius: 50%;
+
+}}
+
+#h{
+    height:100px;
+    width:100px;
+    background-color: white;
+     border-color: white;
+    border-left: yellow;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+    position: absolute;
+    top:15px;
+    left:15px;
+   animation-name: u;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-delay: 0.001s;
+   animation-iteration-count: infinite;
+    
+}
+@keyframes u{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+}
+#o{
+    height:100px;
+    width:100px;
+    background-color: white;
+     border-color: white;
+    border-left: yellow;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+    position: absolute;
+    top:15px;
+    left:15px;
+   animation-name: v;
+   animation-duration: 1s;
+   animation-timing-function: linear;
+   animation-delay: 0.001s;
+   animation-iteration-count: infinite;
+    
+}
+@keyframes v{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+    transform: rotate(360deg);
+    }
+}#g{
+    height:100px;
+    width:100px;
+    background-color: brown;
+    border: 2px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    animation-name: l;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.01s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes l {
+    0%{
+       top: 50px; left:0px; background-color: blue;
+       
+    }
+    20%{
+        top: 650px;left:286px;background-color: rgb(176, 24, 83); 
+    } 
+    40%{
+        top: 650px;left: 536px;background-color: rgb(57, 176, 24); }
+    60%{
+            top: 0px;left:804px;background-color: rgb(23, 2, 2); }
+            80%{
+                top: 650px;left:1072px;background-color: rgb(176, 24, 83); }
+            100%{
+        top: 50px;left:1430px;background-color: rgb(162, 255, 0);
+}}
